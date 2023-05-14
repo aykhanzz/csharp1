@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CodeProject.Core.Entities;
 
-namespace CodeProject.DataAccess.Contexts
+namespace CodeProject.DataAccess.Contexts;
+
+public static class DBContexts
 {
-    internal class DBContexts
-    {
-    }
+    public static List<Employee> Employees { get; set; } = new();
+    public static List<Departament> Departaments { get; set; } = new();
+    public static List<Company> Companies { get; set; } = new();
 }

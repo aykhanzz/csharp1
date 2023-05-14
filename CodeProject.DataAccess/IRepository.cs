@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CodeProject.Core.Interface;
 
-namespace CodeProject.DataAccess
+namespace CodeProject.DataAccess;
+
+public interface IRepository<T> where T : IEntity
 {
-    internal interface IRepository
-    {
-    }
+    void Add(T entity);
+    void Update(T entity);
+    void Delete(T entity);
+    T Get(int id);
+    List<T> GetAll();
 }

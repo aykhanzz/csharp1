@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodeProject.Core\CodeProject.Core.csproj" />
+    <ProjectReference Include="..\CodeProject.DataAccess\CodeProject.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

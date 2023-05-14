@@ -1,0 +1,15 @@
+D:\CodeProject\CodeProject.DataAccess\bin\Debug\net6.0\CodeProject.DataAccess.deps.json
+D:\CodeProject\CodeProject.DataAccess\bin\Debug\net6.0\CodeProject.DataAccess.dll
+D:\CodeProject\CodeProject.DataAccess\bin\Debug\net6.0\CodeProject.DataAccess.pdb
+D:\CodeProject\CodeProject.DataAccess\bin\Debug\net6.0\CodeProject.Core.dll
+D:\CodeProject\CodeProject.DataAccess\bin\Debug\net6.0\CodeProject.Core.pdb
+D:\CodeProject\CodeProject.DataAccess\obj\Debug\net6.0\CodeProject.DataAccess.csproj.AssemblyReference.cache
+D:\CodeProject\CodeProject.DataAccess\obj\Debug\net6.0\CodeProject.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeProject\CodeProject.DataAccess\obj\Debug\net6.0\CodeProject.DataAccess.AssemblyInfoInputs.cache
+D:\CodeProject\CodeProject.DataAccess\obj\Debug\net6.0\CodeProject.DataAccess.AssemblyInfo.cs
+D:\CodeProject\CodeProject.DataAccess\obj\Debug\net6.0\CodeProject.DataAccess.csproj.CoreCompileInputs.cache
+D:\CodeProject\CodeProject.DataAccess\obj\Debug\net6.0\CodeProject.DataAccess.csproj.CopyComplete
+D:\CodeProject\CodeProject.DataAccess\obj\Debug\net6.0\CodeProject.DataAccess.dll
+D:\CodeProject\CodeProject.DataAccess\obj\Debug\net6.0\refint\CodeProject.DataAccess.dll
+D:\CodeProject\CodeProject.DataAccess\obj\Debug\net6.0\CodeProject.DataAccess.pdb
+D:\CodeProject\CodeProject.DataAccess\obj\Debug\net6.0\ref\CodeProject.DataAccess.dll

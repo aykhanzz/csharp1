@@ -21,4 +21,9 @@ public class Employee:IEntity
         Name = name;
         Surname = surname;
     }
+
+    public override string ToString()
+    {
+        return $"id{EmployeeId} name{Name} surname:{Surname}";
+    }
 }

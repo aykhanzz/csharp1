@@ -1,5 +1,5 @@
 ﻿namespace CodeProject.Core.Interface;
 
-internal interface IEntity
+public interface IEntity
 {
 }
