@@ -17,9 +17,10 @@ public class Departament:IEntity
         _id++;
     }
 
-    public Departament(string name) : this()
+    public Departament(string name, int companyId) : this()
     {
         DepartamentName = name;
+        CompanyId = companyId;
     }
     public override string ToString()
     {

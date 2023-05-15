@@ -25,9 +25,9 @@ public class CompanyRepository : IRepository<Company>
         return DBContexts.Companies.Find(c => c.CompanyId == id);
     }
 
-    public Company? GetByName(string com)
+    public Company? GetByName(string name)
     {
-        return DBContexts.Companies.Find(c => c.CompanyName == com);
+        return DBContexts.Companies.Find(c => c.CompanyName == name);
     }
 
     public List<Company> GetAll()
@@ -35,4 +35,8 @@ public class CompanyRepository : IRepository<Company>
         return DBContexts.Companies;
     }
 
+    public List<Company> GetAllByName(string name)
+    {
+        return DBContexts.Companies.FindAll(c=> c.CompanyName == name);
+    }
 }

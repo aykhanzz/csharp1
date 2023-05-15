@@ -30,4 +30,14 @@ public class EmployeeRepository : IRepository<Employee>
     {
         return DBContexts.Employees;
     }
+
+    public Employee GetByName(string name)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<Employee> GetAllByName(string name)
+    {
+        return DBContexts.Employees.FindAll(emp=> emp.Name == name);
+    }
 }

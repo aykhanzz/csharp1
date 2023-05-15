@@ -3,21 +3,20 @@ using CodeProject.Business.Helpers;
 using CodeProject.Business.Interfaces;
 using CodeProject.Core.Entities;
 using CodeProject.DataAccess.Implementations;
-using System.Reflection.Metadata.Ecma335;
 
 namespace CodeProject.Business.Services;
 
 public class CompanyService : ICompanyServices
 {
-    public CompanyRepository _companyRepository { get; }
+    public CompanyRepository companyRepository { get; }
     public CompanyService()
     {
-        _companyRepository = new CompanyRepository();
+        companyRepository = new CompanyRepository();
     }
     public void Create(string companyName)
     {
-        var equal = _companyRepository.GetByName(companyName);
-        if(equal == null)
+        var equal = companyRepository.GetByName(companyName);
+        if(equal != null)
         {
             throw new AlreadyEqualExceptions(Helper.Errors["AlreadyEqualException"]);
         }
@@ -27,7 +26,7 @@ public class CompanyService : ICompanyServices
             throw new SizeException(Helper.Errors["SizeException"]);
         }
         Company company = new Company(name);
-        _companyRepository.Add(company);
+        companyRepository.Add(company);
     }
 
     public void Delete(string companyName)
