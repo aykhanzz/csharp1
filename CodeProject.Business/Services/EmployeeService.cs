@@ -63,7 +63,7 @@ public class EmployeeService : IEmployeeService
             {
                 throw new NullDataException(Helper.Errors["NullDataException"]);)
             }
-    emplo
+    EmployeeRepository
     }
 
     public List<Employee> GetAll(int skip, int take)
