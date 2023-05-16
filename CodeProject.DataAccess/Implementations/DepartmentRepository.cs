@@ -1,5 +1,6 @@
 ﻿using CodeProject.Core.Entities;
 using CodeProject.DataAccess.Contexts;
+using CodeProject.DataAccess.Interfaces;
 
 namespace CodeProject.DataAccess.Implementations;
 

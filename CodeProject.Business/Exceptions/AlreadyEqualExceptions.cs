@@ -2,5 +2,8 @@
 
 public class AlreadyEqualExceptions:Exception
 {
-public AlreadyEqualExceptions(string message) : base(message) { }
+public AlreadyEqualExceptions(string message) : base(message)
+    {
+
+    }
 }

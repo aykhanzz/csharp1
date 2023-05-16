@@ -2,7 +2,7 @@
 
 public class SizeException:Exception
 {
-    public SizeException(string message):base(message)
+    public SizeException(string message) : base(message)
     {
         
     }

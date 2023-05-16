@@ -6,7 +6,7 @@ namespace CodeProject.Core.Entities;
 public class Departament:IEntity
 {
     private static int _id;
-    public int DepartamentId { get; }
+    public int DepartamentId { get; set; }
     public string DepartamentName { get; set; }
     public static int CompanyId { get; set; }
     public int EmployeeLimit { get; set; }

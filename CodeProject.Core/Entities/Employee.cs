@@ -10,16 +10,18 @@ public class Employee:IEntity
     public string Surname { get; set; }
     public double Salary { get; set; }
     public int DepartamentId { get; set; }
-    public Employee()
+    public Employee(double salary, string name, string surname, string departamentId)
     {
         EmployeeId = _id;
         _id++;
     }
 
-    public Employee(string name,string surname):this()
+    public Employee(string name,string surname,int departamentId,int salary):this()
     {
         Name = name;
         Surname = surname;
+        DepartamentId = departamentId;
+        Salary = salary;
     }
 
     public override string ToString()
